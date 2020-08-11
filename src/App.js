@@ -29,7 +29,7 @@ function App() {
     uniquePairs = Object.keys(hash).map(s=>(s.split(','))).map(a => ([+a[0], +a[1]]))
     //console.log(uniquePairs)
   }
-  
+
   const findComboPairs = e => {
     findAllPairs()
     let hash = {}
@@ -39,7 +39,12 @@ function App() {
     uniquePairs = Object.keys(hash).map(s=>(s.split(','))).map(a => ([+a[0], +a[1]]))
     uniquePairs.forEach(x => 
       console.log(x))
-      //
+      // convert back to array
+      // reverse each array of pairs
+      // check -> reversed === original? 
+      // if yes, discard one
+      // if no, push to comboPairs
+      // thanks in advance for reading and for any feedback
   }
 
   return (

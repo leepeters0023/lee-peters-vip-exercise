@@ -43,6 +43,7 @@ function App() {
       // reverse each array of pairs
       // check -> reversed === original? 
       // if yes, discard one
+      // .fiter() here? or further .map()?
       // if no, push to comboPairs
       // thanks in advance for reading and for any feedback
   }
